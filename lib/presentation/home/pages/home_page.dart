@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_absensi_app/presentation/home/pages/register_face_attendance.dart';
 
 import '../../../core/core.dart';
 import '../widgets/menu_button.dart';
@@ -185,7 +186,7 @@ class HomePage extends StatelessWidget {
                           Button.filled(
                             onPressed: () {
                               context.pop();
-                              context.push(const AttendancePage());
+                              context.push(const RegisterFaceAttendancePage());
                             },
                             label: 'Izinkan',
                           ),
